@@ -1,3 +1,5 @@
+// rmarsot@gmail.com
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -980,7 +982,7 @@ namespace FIM
             if (!uF.CreateDirectory(HomePath + @"\" + SamAccountName + @"\Profil.V2", _UserPrincipal.SamAccountName, 2)) return false;
             if (!uF.CreateDirectory(HomePath + @"\" + SamAccountName + @"\Profil.TSE", _UserPrincipal.SamAccountName, 2)) return false;
             if (!uF.CreateDirectory(HomePath + @"\" + SamAccountName + @"\DATA\Musique", _UserPrincipal.SamAccountName, 2)) return false;
-            if (!uF.CreateDirectory(HomePath + @"\" + SamAccountName + @"\DATA\Vidéos", _UserPrincipal.SamAccountName, 2)) return false;
+            if (!uF.CreateDirectory(HomePath + @"\" + SamAccountName + @"\DATA\VidÃ©os", _UserPrincipal.SamAccountName, 2)) return false;
             if (!uF.CreateDirectory(HomePath + @"\" + SamAccountName + @"\DATA\Favoris", _UserPrincipal.SamAccountName, 2)) return false;
             if (!uF.CreateDirectory(HomePath + @"\" + SamAccountName + @"\DATA\Images", _UserPrincipal.SamAccountName, 2)) return false;
             if (!uF.CreateDirectory(HomePath + @"\" + SamAccountName + @"\DATA\Bureau", _UserPrincipal.SamAccountName, 2)) return false;
